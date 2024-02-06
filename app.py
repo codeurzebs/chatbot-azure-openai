@@ -1,3 +1,10 @@
+# Copyright (c) 2024, codeurzebs
+# All rights reserved.
+# Deploy to AZURE OPEN AI
+# This file is part of the project hosted at https://github.com/codeurzebs
+#
+# The source code is subject to the terms and conditions defined in the
+# file 'LICENSE.txt', which is part of this source code package.
 import json
 import os
 import logging
