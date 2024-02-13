@@ -1,4 +1,4 @@
-# [Artificial Intelligence EXAM] My Chat App with AOAI
+# My Chat App with AOAI
 
 This repo contains  code for a simple chat webapp that integrates with Azure OpenAI. Note: some portions of the app use preview APIs.
 
