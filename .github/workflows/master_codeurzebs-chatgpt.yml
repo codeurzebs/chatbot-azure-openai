@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - ngcodex
+name: Build and deploy Python app to Azure Web App - codeurzebs-chatgpt
 
 on:
   push:
@@ -65,14 +65,14 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_3378C322D4024C48985609FD9E9DDE2F }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_77B64334BED546FE87D388D50EEF49AA }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_DBA0530B37D1486A9B978C842056B10A }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_7D24E0AF7863497FB0D2CE966CF4C40B }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_FFF91247B01348C9A3D5D9B1F93F84D9 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_487EA3E34C114A2BBD255EA78A5504F3 }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'ngcodex-gpt'
+          app-name: 'codeurzebs-chatgpt'
           slot-name: 'Production'
           
